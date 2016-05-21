@@ -1,7 +1,7 @@
 if (document.location.hostname == "localhost") {
     var baseurl = "";
 } else {
-    var baseurl = "https://code4sa.org/thuli-madonsela/";
+    var baseurl = "http://code4sa.org/thuli-madonsela/";
 }
 document.write('<div id="code4sa-thuli-madonsela-index"></div>');
 document.write('<script type="text/javascript" src="' + baseurl + 'js/pym.js"></script>');
